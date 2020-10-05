@@ -1,0 +1,13 @@
+spring:
+  thymeleaf:
+    mode: HTML
+###热部署
+    cache: false
+  profiles:
+    active: pro
+  messages:
+    basename: i18n/messages
+
+comment.avatar: /images/avatar.jpg
+message.avatar: /images/avatar.jpg
+

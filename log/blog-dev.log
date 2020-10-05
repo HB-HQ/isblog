@@ -1,0 +1,51 @@
+2020-09-07 11:05:51.775  INFO 3844 --- [restartedMain] com.hb.isblog.IsblogApplication          : Starting IsblogApplication on DESKTOP-DNGL0TS with PID 3844 (C:\Users\HB\Desktop\blog\isblog\target\classes started by HB in C:\Users\HB\Desktop\blog\isblog)
+2020-09-07 11:05:51.806  INFO 3844 --- [restartedMain] com.hb.isblog.IsblogApplication          : The following profiles are active: dev
+2020-09-07 11:05:51.995  INFO 3844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-07 11:05:51.995  INFO 3844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-07 11:05:55.337  INFO 3844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-07 11:05:55.371  INFO 3844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-07 11:05:55.371  INFO 3844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-09-07 11:05:55.373  INFO 3844 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-09-07 11:05:55.374  INFO 3844 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-07 11:05:55.374  INFO 3844 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-07 11:05:55.380  INFO 3844 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-09-07 11:05:55.507  INFO 3844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-07 11:05:55.507  INFO 3844 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3512 ms
+2020-09-07 11:05:56.815  INFO 3844 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 11:05:56.917  INFO 3844 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-07 11:05:58.769  INFO 3844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-07 11:05:58.883  INFO 3844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-07 11:05:58.886  INFO 3844 --- [restartedMain] com.hb.isblog.IsblogApplication          : Started IsblogApplication in 8.883 seconds (JVM running for 12.352)
+2020-09-07 11:06:21.775  INFO 3844 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07 11:06:21.776  INFO 3844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-07 11:06:21.797  INFO 3844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2020-09-07 11:06:21.868  INFO 3844 --- [http-nio-8080-exec-1] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.IndexController.index', args=[{}, 1, {}]}
+2020-09-07 11:06:21.999  INFO 3844 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-07 11:06:23.293  INFO 3844 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-07 11:06:23.831  INFO 3844 --- [http-nio-8080-exec-1] com.hb.isblog.aspect.LogAspect           : Result : index
+2020-09-07 11:06:40.383  INFO 3844 --- [http-nio-8080-exec-7] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.IndexController.blogMessage', args=[{}]}
+2020-09-07 11:06:40.519  INFO 3844 --- [http-nio-8080-exec-7] com.hb.isblog.aspect.LogAspect           : Result : index :: blogMessage
+2020-09-07 11:06:55.414  INFO 3844 --- [http-nio-8080-exec-3] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.TypeShowController.types', args=[1, -1, {}]}
+2020-09-07 11:06:55.434  INFO 3844 --- [http-nio-8080-exec-3] com.hb.isblog.aspect.LogAspect           : Result : types
+2020-09-07 11:06:55.571  INFO 3844 --- [http-nio-8080-exec-5] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.IndexController.blogMessage', args=[{}]}
+2020-09-07 11:06:55.574  INFO 3844 --- [http-nio-8080-exec-5] com.hb.isblog.aspect.LogAspect           : Result : index :: blogMessage
+2020-09-07 11:07:05.753  INFO 3844 --- [http-nio-8080-exec-7] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.ArchiveShowController.archive', args=[{}]}
+2020-09-07 11:07:05.760  INFO 3844 --- [http-nio-8080-exec-7] com.hb.isblog.aspect.LogAspect           : Result : archives
+2020-09-07 11:07:06.081  INFO 3844 --- [http-nio-8080-exec-10] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.IndexController.blogMessage', args=[{}]}
+2020-09-07 11:07:06.087  INFO 3844 --- [http-nio-8080-exec-10] com.hb.isblog.aspect.LogAspect           : Result : index :: blogMessage
+2020-09-07 11:08:55.889  INFO 3844 --- [http-nio-8080-exec-4] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.IndexController.index', args=[{}, 1, {}]}
+2020-09-07 11:08:55.896  INFO 3844 --- [http-nio-8080-exec-4] com.hb.isblog.aspect.LogAspect           : Result : index
+2020-09-07 11:08:56.232  INFO 3844 --- [http-nio-8080-exec-2] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.IndexController.blogMessage', args=[{}]}
+2020-09-07 11:08:56.236  INFO 3844 --- [http-nio-8080-exec-2] com.hb.isblog.aspect.LogAspect           : Result : index :: blogMessage
+2020-09-07 11:09:40.729  INFO 3844 --- [http-nio-8080-exec-1] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.IndexController.index', args=[{}, 1, {}]}
+2020-09-07 11:09:40.736  INFO 3844 --- [http-nio-8080-exec-1] com.hb.isblog.aspect.LogAspect           : Result : index
+2020-09-07 11:09:40.831  INFO 3844 --- [http-nio-8080-exec-4] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.IndexController.blogMessage', args=[{}]}
+2020-09-07 11:09:40.844  INFO 3844 --- [http-nio-8080-exec-4] com.hb.isblog.aspect.LogAspect           : Result : index :: blogMessage
+2020-09-07 11:10:10.743  INFO 3844 --- [http-nio-8080-exec-9] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.IndexController.index', args=[{}, 1, {}]}
+2020-09-07 11:10:10.750  INFO 3844 --- [http-nio-8080-exec-9] com.hb.isblog.aspect.LogAspect           : Result : index
+2020-09-07 11:10:10.892  INFO 3844 --- [http-nio-8080-exec-1] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.IndexController.blogMessage', args=[{}]}
+2020-09-07 11:10:10.895  INFO 3844 --- [http-nio-8080-exec-1] com.hb.isblog.aspect.LogAspect           : Result : index :: blogMessage
+2020-09-07 11:10:31.939  INFO 3844 --- [http-nio-8080-exec-4] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/picture', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.PictureShowController.friends', args=[{}]}
+2020-09-07 11:10:31.946  INFO 3844 --- [http-nio-8080-exec-4] com.hb.isblog.aspect.LogAspect           : Result : picture
+2020-09-07 11:10:32.997  INFO 3844 --- [http-nio-8080-exec-1] com.hb.isblog.aspect.LogAspect           : Request: {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.hb.isblog.controller.IndexController.blogMessage', args=[{}]}
+2020-09-07 11:10:33.005  INFO 3844 --- [http-nio-8080-exec-1] com.hb.isblog.aspect.LogAspect           : Result : index :: blogMessage
